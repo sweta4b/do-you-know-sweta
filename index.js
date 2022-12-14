@@ -26,7 +26,7 @@ function play(question, answer) {
     score = score + 1
   } else {
     console.log('Oops! the correct answer is ' + answer)
-  
+
   }
 
   console.log('Current Score: ', score)
@@ -43,12 +43,12 @@ var questions = [
     question: 'Which is my favorite series? ',
     answer: 'Sherlock holmes',
   },
-  
+
   {
     question: 'Which is my favorire cartoon character? ',
     answer: 'Doraemon',
   },
-  
+
   {
     question: 'Which is my favorite drink? ',
     answer: 'Cocacola',
