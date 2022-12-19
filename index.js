@@ -37,7 +37,7 @@ function play(question, answer) {
 var questions = [
   {
     question: 'Where do I live? ',
-    answer: 'Pune', 'Delhi', 'Banglore', 'Dehradun',
+    answer: 'Pune',
   },
   {
     question: 'Which is my favorite series? ',
