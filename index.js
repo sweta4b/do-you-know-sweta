@@ -4,6 +4,7 @@ var score = 0
 var userName = readlineSync.question("What's your name? ")
 
 console.log('Welcome ' + userName + ' to - DO YOU KNOW SWETA?')
+console.log('\n')
 
 // data of high score
 var highScores = [
@@ -38,6 +39,7 @@ var questions = [
   {
     question: 'Where do I live? ',
     answer: 'Pune',
+
   },
   {
     question: 'Which is my favorite series? ',
@@ -55,7 +57,7 @@ var questions = [
   },
   {
     question: "Here's the last question - Which is my favorite song? ",
-    answer: 'Ai Meri Zohrajabeen',
+    answer: 'Memories',
   },
 ]
 
@@ -64,7 +66,12 @@ for (var i = 0; i < questions.length; i++) {
   play(questions[i].question, questions[i].answer)
 }
 
-console.log('YAY! You SCORED: ', score)
+
+if (score > 3) {
+  console.log('YAY! You SCORED: ', score)
+} else {
+  console.log('You SCORED: ', score)
+}
 console.log('-------------------')
 
 console.log('Check out the high scorers - ')
