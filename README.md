@@ -1,5 +1,7 @@
 # "do-you-know-sweta" quiz
-I just made a Do You Know sweta quiz using Javascript in repl.it to test whether my friends know me or not.
+
+## Tech Stack
+A CLI app made using Node.js in repl.it
 
 ## About
 * Simple CLI quiz to test whether my friends know me or not.
